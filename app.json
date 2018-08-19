@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "gemanepa",
+    "description": "gemanepa.com",
+    "slug": "gemanepa",
+    "privacy": "unlisted",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/gemanepalogo.png",
+    "splash": {
+      "image": "./assets/gemanepalogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1488CC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
+  }
+}
